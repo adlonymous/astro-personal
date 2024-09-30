@@ -39,7 +39,7 @@ Another side-effect of the mempool is **MEV activity**. MEV stands for Maximum E
 
 ## How Solana Solves This
 
-Solana’s architecture is a very different to it’s predecessors — Bitcoin & Ethereum. Since Solana predetermines it’s leader schedule in advance for a defined number of slots (each slot has 4 blocks and a single leader is responsible for this). This allows transaction forwarding to the upcoming leaders if the current leader has more blocks than it can handle, thus highly streamlining block production.
+Solana’s architecture is a very different to it’s predecessors — Bitcoin & Ethereum. Since Solana predetermines it’s leader schedule in advance for a defined number of slots (each slot lasts 400ms and a block may or may not be created for that slot). This allows transaction forwarding to the upcoming leaders if the current leader has more blocks than it can handle, thus highly streamlining block production.
 
 Let’s take a look at how Gulf Stream changes the lifecycle of a transaction before it passes it onto the Solana runtime — Sealevel.
 
