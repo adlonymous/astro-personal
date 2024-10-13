@@ -7,11 +7,13 @@ tags: ['dain', 'blockchain', 'ai']
 draft: false
 ---
 
+> This article is a part of my work at DAIN as a Developer Relations Engineer.
+
 ## Introduction
 
 ![Header Image](header.png)
 
-The Network of Experts (NoE) serves as the foundational infrastructure of the DAIN network, integrating Artificial Intelligence and Blockchain technologies to establish an intelligent internet where Agents interact via natural language processing.
+The Network of Experts (NoE) serves as the foundational infrastructure of the DAIN network, integrating Artificial Intelligence and Blockchain technologies to establish an intelligent internet where Agents interact via natural language.
 
 Prior to exploring NoE, it is essential to define what constitutes an Agent. Agents are software programs or services designed to autonomously execute tasks or achieve specific objectives using Artificial Intelligence. Common examples of AI agents include virtual assistants like Siri and Alexa, chatbots, and autonomous vehicles.
 
