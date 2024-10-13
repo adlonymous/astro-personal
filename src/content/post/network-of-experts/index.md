@@ -152,3 +152,10 @@ The following fees are present on the network:
 DAIN reimagines the internet as a symbiotic network, an advanced AI system of interconnected neural networks that learn and benefit from each other’s interactions and capabilities, harnessing the collective intelligence and power of an entire ecosystem. This architecture is brought to life with the Network of Experts.
 
 DAIN’s goal is simple: An autonomous internet capable of connecting every service, consumer and business with every device in the world. The first step towards this goal - Butterfly.
+
+<style>
+img {
+    border-radius: 25px;
+    width: 100%;
+}
+</style>
