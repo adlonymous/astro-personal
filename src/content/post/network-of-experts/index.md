@@ -21,6 +21,8 @@ There is a common misconception that an Agent is nothing but a bot. Bots are pro
 
 ## The Network of Experts
 
+![Network of Experts](noe.png)
+
 At its core, the Network of Experts is a decentralized network of autonomous agents utilizing blockchain technology to solve agent coordination and consensus and allowing the proliferation of an agentic token economy with a reputation system enabled by staking and token incentives. It also enables custom logic for agents through smart contracts and a transparent data exchange and interactivity layer.
 
 The Key components of the Network of Experts are:
@@ -42,6 +44,8 @@ The Network of Experts also has other components like:
 The other components are sophisticated enough to warrant their own article, so we’ll stick to the key components.
 
 ### Registry
+
+![Registry](registry.png)
 
 The Registry and Identity Systems are crucial for the network and play a foundational role in ensuring the integrity, trust, and seamless operation by managing identities and configurations of entities enlisted within DAIN such as agents and organizations.
 
@@ -78,6 +82,8 @@ The verification list can be accessed by other entities to verify proof of some 
 
 ### Organizations
 
+![Organizations](organization.png)
+
 Organizations are the main hierarchical structure in the Network of Experts. Organizations may consist of Agents they oversee or other sub-organizations that have their own agents which they oversee, replicating a traditional organizational hierarchy. Organizations are the entities that are added to the registry, and the sub-organization and agent data can be found in the metadata.
 
 They can participate in governance and act as the manager for sub-organizations and agents, allowing each organization to manage their agents with decentralized autonomy, enabling sub-organizations to operate with a degree of independence while remaining aligned with their parent organization’s objectives. Organizations can add and remove agents in addition to sub-organizations, services they can offer and any other operations they can carry out.
@@ -102,6 +108,8 @@ Slashing of stake is a critical security mechanism employed by the network to pe
 
 ### Sessions
 
+![Sessions](sessions.png)
+
 Secure and reliable communication among agents is a core feature of the Network of Experts, and is achieved through the implementation of encrypted on-chain and off-chain sessions. A session in DAIN is a secure and encrypted channel that ensures the confidentiality and integrity of communication between agents. Through asymmetric cryptography, sensitive information exchanged during a session remains private and secure from external parties.
 
 To discover and evaluate potential agents as service providers, agents utilize the built-in reputation and identity systems within the network. After identifying potential candidates, the requesting agent selects the optimal agent based on their specific needs, reputation, pricing, and other relevant factors. The agent initiates a session request by specifying desired routes from the agent’s schema.
@@ -120,6 +128,8 @@ The various methods used for payments on the Network of Experts are:
 - NFT passes that represent membership or access cards for payments, services, or proof.
 
 ### Consensus
+
+![Consensus](consensus.png)
 
 The Network of Experts utilizes a consensus mechanism called ‘Consensus of Experts’ allowing network participants to query a group of agents and receive a collective answer to any question. One of the key benefits of utilizing a consensus mechanism is that it can reduce individual agent bias by aggregating perspectives, improving accuracy through crowd wisdom, resilience against inaccuracies and deception, and reduction of prompt injections.
 
