@@ -13,13 +13,13 @@ interface Props {
 }
 
 const {
-	meta: { articleDate, description = siteConfig.description, ogImage, title }
+	meta: { articleDate, description = siteConfig.description, title }
 } = Astro.props
 ---
 
 <html lang={siteConfig.lang} class='font-mono text-[#20C20E]'>
 	<head>
-		<BaseHead articleDate={articleDate} description={description} ogImage={ogImage} title={title} />
+		<BaseHead articleDate={articleDate} description={description} title={title} />
 	</head>
 
 	<body class='flex justify-center bg-background font-mono text-[#20C20E]'>
